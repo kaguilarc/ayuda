@@ -1,0 +1,81 @@
+body{
+  background-color: #2F7585;
+
+}
+
+header{
+  width: 100%;
+  height: auto;
+}
+
+header nav{
+  background: #062F4F;
+  width: 100%;
+  height: 50px;
+}
+
+header nav a{
+  float: left;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 25px;
+  text-decoration: none;
+}
+
+header nav a:hover{
+  color: #B82601;
+}
+
+header nav img{
+    width: 30px;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+}
+
+.header_derecha{
+  float: right;
+  padding-right: 25px;
+}
+
+#banner{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 3px;
+}
+
+#banner h1{
+  font-size: 150px;
+  color: white;
+  padding-top: 170px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+main{
+  width: 80%;
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  background-color: rgba(255, 255, 255,0.9);
+}
+
+footer{
+  background: #062F4F;
+  width: 100%;
+  height: 50px;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+footer p:hover{
+  color: #B82601;
+}

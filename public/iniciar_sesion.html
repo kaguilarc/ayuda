@@ -1,0 +1,59 @@
+﻿<!DOCTYPE Html>
+<html lang="es-mx">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/iniciar_sesion.css">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+        </nav>
+    </header>
+
+    <main id="login_view">
+
+
+        <div id="login_container">
+            <div class="login_panel">
+                <img src="./imgs/img_logo.png" />
+            </div>
+            <div class="login_datos">
+                <form>
+                    <div class="form_input">
+
+                        <input id="txt_correo" type="text" name="name" value="" placeholder="CORREO ELECTRONICO" class="inputs" />
+                    </div>
+                    <div class="form_input">
+
+                        <input id="txt_clave" type="password" name="name" value="" placeholder="CONTRASEÑA" class="inputs" />
+                    </div>
+                    <button id="btn_enviar">
+                        <span>Inicia sesión</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="login_olvido">
+                <a href="#"><span data-reactid="32">¿Olvidaste tu contraseña?</span></a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p> Copyright 2018. Alfred. Todos los derechos reservados</p>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/servicio_inicio_sesion.js"></script>
+    <script src="js/controlador_inicio_sesion.js"></script>
+    
+</body>
+</html>

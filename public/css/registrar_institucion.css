@@ -1,0 +1,183 @@
+/*estilos para pagina en genneral*/
+#seccion_formulario {
+    /*border: 2px solid red;*/
+    padding-top: 0px;
+    height: auto;
+    /*margin: 25px 50px;*/
+    background-color: white;
+    box-shadow: 0 1px 50px 0 rgba(0,0,0,0.08);
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+#select_anio_fundacion {
+    width: 135px;
+}
+
+#titulo_box {
+    /*border: 2px solid green;*/
+    text-align: center;
+    height: 56px;
+    background-color: #f7f5f5;
+    padding-top: 30px;
+}
+    /*cambiar la fuente aqui si es necesario*/
+    #titulo_box div {
+        /*margin-top:10px;*/
+        height: 30px;
+    }
+
+        #titulo_box div span {
+            font-size: 30px;
+        }
+
+#div_linea {
+    /*border: 2px solid pink;*/
+    margin-top: 20px;
+    height: 42px;
+    display: flex;
+}
+
+
+.form_texto {
+    text-align: right;
+    width: 35%;
+    background-color: white;
+}
+    /*********************************fin general*/
+
+
+    .form_texto p {
+        font-size: 20px;
+        margin: 11px;
+        font-family: 'Roboto Slab', serif;
+    }
+
+
+.input {
+    border: 1px solid #c9c9c9;
+    border-radius: 0.25rem;
+}
+
+    .input > * {
+        margin: 3.5px;
+        width: 520px;
+        color: #333;
+    }
+
+    .input > input[type="radio"] {
+        width: auto;
+    }
+
+#input_grado > * {
+    /*margin-top: 15px;*/
+}
+
+#input_grado span, #input_clase span, #input_genero span {
+    margin-right: 15px;
+    margin-left: 0px;
+}
+
+#input_clase > * {
+    /*margin-top: 15px;*/
+}
+
+#input_genero > * {
+    /*margin-top: 15px;*/
+}
+
+
+#seccion_formulario select {
+    height: 32px;
+}
+
+.div_ref_historica {
+    height: 150px !important;
+}
+
+#input_ref {
+    width: 520px;
+}
+
+#txt_ref {
+    width: 505px;
+    height: 135px;
+    resize: none;
+}
+/*Seccion telefono*/
+
+#txt_telefono {
+    width: 200px;
+}
+
+#txt_extencion {
+    width: 188px;
+}
+
+#name_extencion {
+    text-align: left;
+}
+
+#display_extencion {
+    display: flex;
+}
+
+/*Quitar bordes*/
+input, select, textarea, #input_grado, #input_clase, #input_genero {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+/*Boton*/
+#div_submit {
+    margin: 40px 0px 0px 0px;
+}
+
+    #div_submit div {
+        text-align: center;
+        background-color: #f7f5f5;
+        height: 100px;
+    }
+
+#btn_enviar {
+    margin: 37px;
+    background-color: #16a085;
+    height: 35px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+}
+
+    #btn_enviar span {
+        color: white;
+    }
+
+.div_foto {
+    height: 200px !important;
+}
+
+#div_image {
+    display: grid;
+}
+
+#image_preview {
+    height: 150px;
+}
+
+#panel_img {
+    height: 150px;
+}
+
+#btn_cargar_img {
+    background-color: #16a085;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+}
+
+#txt_btn_foto {
+    color: white;
+}

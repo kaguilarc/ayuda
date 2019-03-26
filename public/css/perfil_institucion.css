@@ -1,0 +1,117 @@
+section, frm_formulario {
+    width: 950px;
+    height: 850px;
+    background-color: white;
+    margin: 10px 250px;
+    display: inline-block;
+    /*border: 5px solid red;*/
+    margin-top: -450px;
+}
+
+#submenu  {
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+#seccion_formulario h1 {
+    font-size: 3.0em;
+    text-align: center;
+    margin: 50px;
+    /*border: 3px solid pink;*/
+}
+
+div {
+    /*border: 2px solid green;*/
+    margin: 15px 20px;
+}
+
+#div_info_general, #div_contacto_direccion {
+    display: inline-flex;
+}
+
+
+#div_nombre input[type="text"] {
+    width: 340px;
+    margin-right: 10px;
+}
+
+#div_cedula input {
+    margin-right: 10px;
+}
+
+    #div_cedula input[type="date"] {
+        width: 125px;
+    }
+
+.f_general {
+    border: 1px solid #d0d0d0;
+}
+
+div #field_tipo, #field_grado, #field_genero {
+    margin-right: 50px;
+    padding: 10px;
+}
+
+#div_ref_historica {
+    display: inline-flex;
+    /*margin-left:0px;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*margin-left:0px;*/ 
+}
+
+    #div_ref_historica textarea {
+        width: 300px;
+        height: 188px;
+        resize: none;
+    }
+
+#div_contacto, #div_direccion {
+    width: 270px;
+}
+
+    #div_contacto div {
+        /*width: 400px;
+    margin-right: 0px;
+    padding-right: 0px;*/
+        display: grid;
+        padding-left: 5px;
+        margin-right: 5px;
+    }
+
+    #div_direccion div {
+        display: grid;
+        padding-left: 5px;
+        margin-right: 5px;
+    }
+
+    #div_direccion div {
+        /*padding-left: 0px;
+    margin-left: 50px;*/
+        display: grid;
+    }
+
+#div_general select {
+    margin-right: 10px;
+}
+
+#div_ref_historica div {
+    margin-left: 0px;
+    /*border: 5px solid red;*/
+}
+
+#btn_enviar {
+    width: 15%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 42.5%;
+    margin-bottom: 100px;
+}
+
+#seccion_formulario {
+
+    margin-right:0px; 
+}
